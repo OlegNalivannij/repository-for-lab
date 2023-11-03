@@ -1,0 +1,23 @@
+#include <iostream>
+#include "windows.h"
+using namespace std;
+
+int main()
+{
+	double A, S, P;
+
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	cout << "Введіть A: ";
+	cin >> A;
+	S = A * A;
+	P = A * 4;
+	cout << "S =" << S << endl;
+	cout << "P =" << P << endl;
+
+
+
+	system("pause");
+	return 0;
+} 
+
