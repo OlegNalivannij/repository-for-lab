@@ -10,8 +10,8 @@ int main()
 	scanf_s("%lf", &A);
 	S = A * A;
 	P = A * 4;
-	printf("P = %lf\n", P);
+	/*printf("P = %lf\n", P);
 	printf("S = %lf\n", S);
 	system("pause");
-	return 0;
+	return 0;*/
 }
